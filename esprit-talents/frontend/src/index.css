@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* ── Palette ESPRIT ──────────────────────────────────── */
+:root {
+  --esprit-red:       #E30613;
+  --esprit-red-dark:  #B8000F;
+  --esprit-black:     #1A1A1A;
+  --esprit-dark:      #2C2C2C;
+  --esprit-grey:      #4A4A4A;
+  --esprit-mid:       #8C8C8C;
+  --esprit-light:     #F4F4F4;
+  --esprit-border:    #E0E0E0;
+  --honoris-maroon:   #7B1526;
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1A1A1A;
+  background: #F4F4F4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset complet — supprime tout l'héritage du template Vite */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #F4F4F4;
+}
+
+/* #root occupe TOUTE la fenetre sans contrainte de largeur */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Reset h1/h2 — evite le font-size geant du template Vite */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #1A1A1A;
+}
+
+p { margin: 0; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; }

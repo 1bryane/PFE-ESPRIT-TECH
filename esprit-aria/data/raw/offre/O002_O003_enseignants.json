@@ -1,0 +1,82 @@
+[
+  {
+    "id": "O002",
+    "poste": "Enseignant Vacataire — Intelligence Artificielle et Machine Learning",
+    "departement": "Informatique et Sciences des Données",
+    "responsable_pedagogique": "Chef Département Informatique",
+    "type_contrat": "Vacataire",
+    "volume_horaire": 45,
+    "unite_horaire": "heures/semestre",
+    "remuneration": "40 TND/heure",
+    "niveau_requis": "Doctorat ou Master recherche en IA, Machine Learning ou domaine connexe",
+    "experience_requise": "Publications scientifiques souhaitées ou expérience en R&D",
+    "modules_a_enseigner": [
+      "Introduction au Machine Learning (M1 Data Science)",
+      "Deep Learning et réseaux de neurones (M2 IA)",
+      "Traitement du Langage Naturel — NLP (M2 IA)",
+      "Projets IA : encadrement de projets de fin d'études"
+    ],
+    "competences_requises": [
+      "Python", "Scikit-learn", "TensorFlow", "Keras", "PyTorch",
+      "NLP", "Computer Vision", "Pandas", "NumPy",
+      "Mathématiques : algèbre linéaire, probabilités, optimisation"
+    ],
+    "competences_souhaitees": [
+      "Hugging Face Transformers", "LLMs", "MLflow", "Ray", "ONNX"
+    ],
+    "profil_ideal": "Chercheur ou ingénieur IA passionné par la transmission du savoir. Capacité à vulgariser des concepts mathématiques complexes. Idéalement avec une expérience d'encadrement de PFE.",
+    "date_debut": "Septembre 2026",
+    "duree": "1 semestre renouvelable",
+    "lieu": "Campus ESPRIT — Ariana, Tunis",
+    "modalites_candidature": "Dépôt CV + publications (si disponibles) sur la plateforme ESPRIT",
+    "etat": "ouverte",
+    "date_cloture": "30 juin 2026",
+    "nb_candidats_max": 2,
+    "criteres_selection": [
+      "Niveau académique et publications",
+      "Maîtrise technique des outils ML",
+      "Expérience pédagogique ou de formation",
+      "Entretien technique avec jury département"
+    ]
+  },
+  {
+    "id": "O003",
+    "poste": "Enseignant Vacataire — Génie Civil et Structures",
+    "departement": "Génie Civil et Environnement",
+    "responsable_pedagogique": "Chef Département Génie Civil",
+    "type_contrat": "Vacataire",
+    "volume_horaire": 54,
+    "unite_horaire": "heures/semestre",
+    "remuneration": "35 TND/heure",
+    "niveau_requis": "Ingénieur Génie Civil (Bac+5) ou Master structures",
+    "experience_requise": "Minimum 3 ans d'expérience en bureau d'études ou chantier",
+    "modules_a_enseigner": [
+      "Béton armé — calcul de structures (L3 Génie Civil)",
+      "Mécanique des sols et fondations (L3 Génie Civil)",
+      "Logiciels de calcul : SAP2000 et ETABS (M1 Structures)",
+      "Projets de conception structurale en groupe"
+    ],
+    "competences_requises": [
+      "Béton armé", "Calcul de structures", "Mécanique des sols",
+      "SAP2000", "ETABS", "AutoCAD", "Robot Structural Analysis",
+      "Normes EC2, EC7, NF EN 1990-1998", "BIM"
+    ],
+    "competences_souhaitees": [
+      "Revit Structure", "Plaxis", "SAFE", "Gestion de chantier"
+    ],
+    "profil_ideal": "Ingénieur praticien avec expérience significative en bureau d'études structures. Capacité à illustrer les cours avec des cas réels de projets. Maîtrise des logiciels de calcul utilisés dans l'industrie.",
+    "date_debut": "Février 2027",
+    "duree": "1 semestre",
+    "lieu": "Campus ESPRIT — Ariana, Tunis",
+    "modalites_candidature": "Dépôt CV sur la plateforme ESPRIT — entretien en présence",
+    "etat": "ouverte",
+    "date_cloture": "15 décembre 2026",
+    "nb_candidats_max": 2,
+    "criteres_selection": [
+      "Expérience en bureau d'études (projets réels)",
+      "Maîtrise des logiciels de calcul",
+      "Références de projets significatifs",
+      "Entretien avec le chef de département Génie Civil"
+    ]
+  }
+]

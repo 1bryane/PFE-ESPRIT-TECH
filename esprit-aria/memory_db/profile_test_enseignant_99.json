@@ -1,0 +1,21 @@
+{
+  "user_id": "test_enseignant_99",
+  "name": "Mohammed Ali",
+  "department": "Informatique",
+  "niveau": "intermédiaire",
+  "languages": [],
+  "competences": [
+    "Python",
+    "JavaScript",
+    "SQL"
+  ],
+  "objectifs": [
+    "Devenir Talent",
+    "Maîtriser React"
+  ],
+  "formations_suivies": [],
+  "preferences": {},
+  "is_talent": false,
+  "created_at": 1775416394.691979,
+  "updated_at": 1775416411.6194499
+}

@@ -1,0 +1,93 @@
+{
+  "id": "F003",
+  "titre": "Intelligence Artificielle Appliquée à l'Enseignement Supérieur",
+  "cible": "Enseignants souhaitant intégrer l'IA dans leur pratique pédagogique",
+  "duree_semaines": 10,
+  "niveau": "intermédiaire",
+  "type": "formation_generique",
+  "createur": "RDFF",
+  "objectif": "Comprendre les fondements du Machine Learning et du Deep Learning, et les appliquer concrètement dans la conception de projets pédagogiques innovants pour les étudiants d'ESPRIT.",
+  "prerequis": ["Python intermédiaire (niveau F001 ou équivalent)", "Mathématiques : algèbre linéaire, probabilités", "Notions de statistiques"],
+  "competences_visees": ["Machine Learning", "Deep Learning", "TensorFlow", "Keras", "PyTorch", "Computer Vision", "NLP", "MLOps"],
+  "programme": [
+    {
+      "semaine": 1,
+      "theme": "Fondements mathématiques du ML",
+      "objectifs": ["Revoir l'algèbre linéaire appliquée au ML", "Comprendre la descente de gradient", "Maîtriser les fonctions de coût"],
+      "ressources": ["3Blue1Brown — Essence of Linear Algebra", "Andrew Ng ML course"],
+      "exercice": "Implémenter la régression logistique from scratch avec NumPy"
+    },
+    {
+      "semaine": 2,
+      "theme": "Algorithmes supervisés classiques",
+      "objectifs": ["SVM, arbres de décision, random forests", "Validation croisée et hyperparamètres", "Feature engineering"],
+      "ressources": ["Scikit-learn documentation", "Kaggle competitions"],
+      "exercice": "Classifier des projets étudiants par niveau de complexité"
+    },
+    {
+      "semaine": 3,
+      "theme": "Réseaux de neurones et Deep Learning",
+      "objectifs": ["Architecture des réseaux denses (MLP)", "Backpropagation et optimiseurs", "Régularisation : dropout, batch norm"],
+      "ressources": ["Deep Learning (Goodfellow, Bengio, Courville)", "TensorFlow Playground"],
+      "exercice": "Réseau de neurones pour prédiction des résultats académiques"
+    },
+    {
+      "semaine": 4,
+      "theme": "Réseaux de neurones convolutifs (CNN) — Computer Vision",
+      "objectifs": ["Architecture CNN : convolution, pooling, flatten", "Transfer learning avec VGG16, ResNet", "Applications pédagogiques : reconnaissance de schémas, correction automatique"],
+      "ressources": ["CS231n Stanford", "Keras Applications"],
+      "exercice": "Classifier des dessins techniques d'étudiants (génie civil)"
+    },
+    {
+      "semaine": 5,
+      "theme": "NLP et Traitement du Langage",
+      "objectifs": ["Tokenisation, embeddings word2vec", "Modèles LSTM pour classification de texte", "Introduction aux Transformers et BERT"],
+      "ressources": ["Hugging Face documentation", "The Illustrated Transformer"],
+      "exercice": "Détection de plagiat dans les rapports étudiants"
+    },
+    {
+      "semaine": 6,
+      "theme": "Grands Modèles de Langage (LLM) — usage pédagogique",
+      "objectifs": ["Comprendre l'architecture Transformer", "Utiliser les LLMs locaux (Ollama, LM Studio)", "Prompt engineering pour l'enseignement"],
+      "ressources": ["Ollama documentation", "Prompt Engineering Guide"],
+      "exercice": "Créer un assistant pédagogique local pour corriger des exercices étudiants"
+    },
+    {
+      "semaine": 7,
+      "theme": "Génération Augmentée par Récupération (RAG)",
+      "objectifs": ["Comprendre le RAG et ses cas d'usage", "Implémenter un RAG simple avec ChromaDB", "Nourrir un agent avec des documents pédagogiques"],
+      "ressources": ["ChromaDB documentation", "LangChain RAG tutorial"],
+      "exercice": "RAG sur le programme et les cours du département — chatbot pédagogique"
+    },
+    {
+      "semaine": 8,
+      "theme": "MLOps et déploiement de modèles",
+      "objectifs": ["Versionner les modèles avec MLflow", "Déployer avec FastAPI et Docker", "Monitoring d'un modèle en production"],
+      "ressources": ["MLflow documentation", "Docker for Data Science"],
+      "exercice": "Déployer le modèle de prédiction académique sur un serveur local"
+    },
+    {
+      "semaine": 9,
+      "theme": "Éthique de l'IA et biais algorithmiques",
+      "objectifs": ["Identifier les biais dans les données et les modèles", "Réglementation IA en Europe (AI Act)", "Usage responsable de l'IA en éducation"],
+      "ressources": ["EU AI Act summary", "AI Fairness 360 IBM"],
+      "exercice": "Audit d'équité sur un modèle de sélection académique"
+    },
+    {
+      "semaine": 10,
+      "theme": "Projet final — Application IA pédagogique",
+      "objectifs": ["Développer une application IA complète pour l'enseignement", "Présenter devant un jury ESPRIT", "Publier sur GitHub avec documentation"],
+      "ressources": ["GitHub Pages", "Streamlit pour les démos"],
+      "exercice": "Application IA au choix : correcteur automatique, chatbot pédagogique, système de recommandation de cours"
+    }
+  ],
+  "evaluation": {
+    "criteres": ["Qualité technique du projet final (40%)", "Innovation pédagogique (30%)", "Présentation et documentation (30%)"],
+    "note_minimale": 14,
+    "sur": 20
+  },
+  "badge": "Enseignant IA Certifié ESPRIT — Niveau Avancé",
+  "acces_talent": true,
+  "nb_places": 12,
+  "etat": "disponible"
+}

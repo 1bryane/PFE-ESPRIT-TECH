@@ -1,0 +1,79 @@
+{
+  "id": "F001",
+  "titre": "Python Avancé pour l'Enseignement de la Data Science",
+  "cible": "Enseignants département Informatique et Sciences des Données",
+  "duree_semaines": 8,
+  "niveau": "intermédiaire",
+  "type": "formation_generique",
+  "createur": "RDFF",
+  "objectif": "Maîtriser Python dans ses aspects avancés afin de concevoir des exercices pratiques, des projets pédagogiques et des outils d'analyse de données pour l'enseignement supérieur à ESPRIT.",
+  "prerequis": ["Bases Python (variables, fonctions, boucles)", "Algorithmique de base", "Notions de mathématiques"],
+  "competences_visees": ["Python avancé", "Pandas", "NumPy", "Matplotlib", "Scikit-learn", "Jupyter Notebook", "Git"],
+  "programme": [
+    {
+      "semaine": 1,
+      "theme": "Programmation Orientée Objet avancée et décorateurs",
+      "objectifs": ["Maîtriser les classes abstraites et l'héritage multiple", "Utiliser les décorateurs pour enrichir les fonctions", "Comprendre les générateurs et itérateurs"],
+      "ressources": ["Documentation officielle Python 3.11", "Livre : Fluent Python (Luciano Ramalho)"],
+      "exercice": "Concevoir un système de gestion de notes étudiants avec héritage et décorateurs de validation"
+    },
+    {
+      "semaine": 2,
+      "theme": "Manipulation de données avec Pandas",
+      "objectifs": ["Charger et nettoyer des jeux de données CSV/Excel", "Effectuer des agrégations et groupements", "Fusionner des DataFrames"],
+      "ressources": ["Documentation Pandas officielle", "Kaggle Learn - Pandas"],
+      "exercice": "Analyser les résultats académiques d'une promotion fictive de 200 étudiants"
+    },
+    {
+      "semaine": 3,
+      "theme": "Calcul scientifique avec NumPy et SciPy",
+      "objectifs": ["Manipuler des tableaux multidimensionnels", "Effectuer des opérations matricielles", "Appliquer des fonctions statistiques"],
+      "ressources": ["NumPy documentation", "SciPy Lecture Notes"],
+      "exercice": "Implémenter la régression linéaire from scratch puis avec NumPy"
+    },
+    {
+      "semaine": 4,
+      "theme": "Visualisation de données avec Matplotlib et Seaborn",
+      "objectifs": ["Créer des graphiques statiques et interactifs", "Choisir le bon type de visualisation selon les données", "Exporter des figures pour les cours"],
+      "ressources": ["Matplotlib gallery", "Seaborn documentation"],
+      "exercice": "Créer un tableau de bord pédagogique visualisant les performances d'une classe"
+    },
+    {
+      "semaine": 5,
+      "theme": "Introduction au Machine Learning avec Scikit-learn",
+      "objectifs": ["Comprendre le pipeline ML : données → modèle → évaluation", "Appliquer la régression et la classification", "Évaluer les modèles avec les métriques appropriées"],
+      "ressources": ["Scikit-learn user guide", "Hands-On Machine Learning (Aurélien Géron)"],
+      "exercice": "Entraîner un modèle de prédiction des résultats étudiants"
+    },
+    {
+      "semaine": 6,
+      "theme": "Traitement de données textuelles et NLP de base",
+      "objectifs": ["Nettoyer et tokeniser du texte", "Appliquer TF-IDF et vectorisation", "Construire un système de recommandation simple"],
+      "ressources": ["NLTK documentation", "spaCy 101"],
+      "exercice": "Analyser les feedbacks étudiants avec analyse de sentiment"
+    },
+    {
+      "semaine": 7,
+      "theme": "Automatisation et scripting pédagogique",
+      "objectifs": ["Automatiser la correction de travaux avec Python", "Générer des rapports PDF automatiquement", "Envoyer des emails automatisés avec résultats"],
+      "ressources": ["ReportLab documentation", "smtplib Python"],
+      "exercice": "Script de correction automatique de QCM avec génération de rapport par étudiant"
+    },
+    {
+      "semaine": 8,
+      "theme": "Projet final intégrateur",
+      "objectifs": ["Développer un outil pédagogique complet", "Présenter devant les collègues enseignants", "Documenter le projet sur GitHub"],
+      "ressources": ["GitHub documentation", "Jupyter Book"],
+      "exercice": "Tableau de bord interactif d'analyse des performances académiques département"
+    }
+  ],
+  "evaluation": {
+    "criteres": ["Qualité du code (propreté, commentaires, PEP8)", "Fonctionnalité du projet final", "Présentation orale (15 minutes)", "Documentation GitHub"],
+    "note_minimale": 14,
+    "sur": 20
+  },
+  "badge": "Enseignant Data Science Python — ESPRIT",
+  "acces_talent": true,
+  "nb_places": 15,
+  "etat": "disponible"
+}

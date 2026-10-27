@@ -1,0 +1,65 @@
+{
+  "id": "F004",
+  "titre": "Leadership Académique et Gestion de Département",
+  "cible": "Enseignants seniors et enseignants souhaitant accéder à des postes de responsabilité",
+  "duree_semaines": 6,
+  "niveau": "avancé",
+  "type": "formation_generique",
+  "createur": "RDFF",
+  "objectif": "Développer les compétences managériales, organisationnelles et relationnelles nécessaires pour occuper des postes de responsabilité pédagogique au sein d'ESPRIT (chef de module, coordinateur, chef de département).",
+  "prerequis": ["Minimum 2 ans d'expérience d'enseignement à ESPRIT", "Avoir validé au moins une formation du catalogue RDFF", "Recommandation d'un RP Chef de Département"],
+  "competences_visees": ["Leadership", "Gestion de projet", "Management d'équipe", "Communication institutionnelle", "Gestion des conflits", "Planification stratégique", "Reporting"],
+  "programme": [
+    {
+      "semaine": 1,
+      "theme": "Fondements du leadership en milieu académique",
+      "objectifs": ["Distinguer management et leadership", "Identifier son style de leadership (test MBTI)", "Comprendre les spécificités du management académique vs entreprise"],
+      "ressources": ["Livre : Leaders Eat Last (Simon Sinek)", "Harvard Business Review — Academic Leadership"],
+      "exercice": "Analyse de cas : gestion d'un département en crise académique"
+    },
+    {
+      "semaine": 2,
+      "theme": "Gestion de projet pédagogique",
+      "objectifs": ["Appliquer les méthodes Agile/Scrum à la gestion de modules", "Planifier un semestre académique avec Microsoft Project", "Gérer les risques et imprévus pédagogiques"],
+      "ressources": ["PMBOK Guide", "Jira pour la gestion de projets académiques"],
+      "exercice": "Planifier intégralement un semestre pour un module de 60 heures"
+    },
+    {
+      "semaine": 3,
+      "theme": "Communication institutionnelle et reporting",
+      "objectifs": ["Rédiger des rapports d'activité clairs et structurés", "Présenter des bilans pédagogiques à la direction", "Maîtriser la communication écrite formelle (emails, comptes rendus)"],
+      "ressources": ["Guide de communication ESPRIT", "Strunk & White — Elements of Style"],
+      "exercice": "Rédiger un rapport d'activité semestriel d'un département fictif"
+    },
+    {
+      "semaine": 4,
+      "theme": "Management d'équipe enseignante",
+      "objectifs": ["Motiver et fédérer une équipe d'enseignants", "Conduire des entretiens de performance", "Gérer les conflits interpersonnels en milieu académique"],
+      "ressources": ["Nonviolent Communication (Marshall Rosenberg)", "Crucial Conversations"],
+      "exercice": "Jeu de rôle : entretien de recadrage d'un enseignant en difficulté"
+    },
+    {
+      "semaine": 5,
+      "theme": "Assurance qualité et accréditation",
+      "objectifs": ["Comprendre les exigences CTI et ABET pour l'accréditation", "Mettre en place des indicateurs de performance pédagogique (KPI)", "Préparer les dossiers d'audit qualité"],
+      "ressources": ["Référentiel CTI 2024", "ISO 21001 — Systèmes de management pour organismes d'enseignement"],
+      "exercice": "Construire un tableau de bord qualité pour un département d'ingénierie"
+    },
+    {
+      "semaine": 6,
+      "theme": "Vision stratégique et développement du département",
+      "objectifs": ["Élaborer une feuille de route stratégique à 3 ans", "Identifier les compétences émergentes à intégrer dans les curricula", "Développer des partenariats industrie-université"],
+      "ressources": ["Analyse SWOT académique", "Rapports IEEE/ACM sur les compétences IT émergentes"],
+      "exercice": "Présentation d'un plan stratégique départemental devant un jury de direction"
+    }
+  ],
+  "evaluation": {
+    "criteres": ["Rapport d'activité simulé (25%)", "Présentation plan stratégique (35%)", "Évaluation par les pairs sur les exercices en groupe (40%)"],
+    "note_minimale": 15,
+    "sur": 20
+  },
+  "badge": "Responsable Pédagogique Certifié ESPRIT",
+  "acces_talent": true,
+  "nb_places": 8,
+  "etat": "disponible"
+}

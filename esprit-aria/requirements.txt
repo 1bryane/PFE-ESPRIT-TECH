@@ -1,0 +1,15 @@
+chromadb
+reportlab
+ddgs
+pdfplumber
+fastapi
+uvicorn
+requests
+pydantic
+rich
+rapidfuzz
+nltk
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+sqlalchemy

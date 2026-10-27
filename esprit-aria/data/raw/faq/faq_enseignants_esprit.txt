@@ -1,0 +1,82 @@
+FAQ ENSEIGNANTS — PLATEFORME DE GESTION DES TALENTS ESPRIT
+Version 1.0 — Département Formation des Formateurs (RDFF)
+================================================================
+PARCOURS TALENT — RÉSUMÉ EN 4 ÉTAPES :
+Étape 1 : Avoir le statut Enseignant actif depuis au moins 1 semestre
+Étape 2 : Cliquer sur "Demander le statut Talent" depuis son tableau de bord
+Étape 3 : Suivre et valider avec succès au moins une formation du catalogue RDFF
+Étape 4 : Le badge Talent est attribué automatiquement après validation
+
+IMPORTANT : Il n'y a PAS de jury, PAS de projet de recherche requis, 
+PAS de critères de pourcentage. Le seul critère est la validation 
+d'une formation RDFF par le responsable du département.
+
+SECTION 1 : RECRUTEMENT ET CANDIDATURE
+---------------------------------------
+
+Q1 : Comment postuler à un poste d'enseignant à ESPRIT ?
+R : Pour postuler, vous devez créer un compte sur la plateforme de gestion des talents ESPRIT, compléter votre profil (informations personnelles, photo, CV au format PDF) et sélectionner votre département de rattachement. Une fois votre profil complété, le système extrait automatiquement vos compétences depuis votre CV grâce à un moteur d'intelligence artificielle. Vous pouvez ensuite consulter les offres disponibles et postuler en un clic. Vous recevrez une notification par email et sur la plateforme dès qu'une décision est prise sur votre candidature.
+
+Q2 : Quels sont les critères de sélection des candidats ?
+R : Les candidatures sont classées automatiquement par ordre de compatibilité entre les compétences extraites de votre CV et les exigences du poste. Ce score de matching est calculé par notre moteur d'intelligence artificielle qui analyse les compétences techniques, l'expérience et le niveau académique. Le responsable pédagogique consulte ensuite cette liste classée et peut accepter, refuser ou contacter directement les candidats qu'il souhaite. En cas d'acceptation, vous passez automatiquement au statut d'Enseignant.
+
+Q3 : Puis-je recevoir une proposition sans avoir postulé ?
+R : Oui. Si un responsable pédagogique identifie votre profil comme correspondant à un besoin, il peut vous envoyer directement une proposition. Vous recevrez une notification et pourrez accepter ou refuser librement, sans aucune obligation.
+
+Q4 : Que se passe-t-il si ma candidature est refusée ?
+R : Un refus ne ferme aucune porte. Votre profil reste actif sur la plateforme et vous pouvez continuer à postuler à toutes les offres disponibles dans votre département et dans les autres. Nous vous encourageons à enrichir votre CV et à suivre des formations pour améliorer votre score de compatibilité lors de prochaines candidatures.
+
+Q5 : Comment mettre à jour mon CV sur la plateforme ?
+R : Rendez-vous dans la section "Mon Profil" et cliquez sur "Mettre à jour mon CV". Le nouveau fichier PDF remplace automatiquement l'ancien et le système ré-extrait immédiatement vos compétences. Votre profil est mis à jour en moins de 2 minutes.
+
+
+SECTION 2 : STATUT ENSEIGNANT
+-------------------------------
+
+Q6 : Quelles sont les responsabilités d'un enseignant vacataire à ESPRIT ?
+R : L'enseignant vacataire est responsable de la préparation et de la dispense des cours et travaux pratiques selon le programme défini par le chef de département. Il assure la correction des évaluations et la remise des notes dans les délais impartis. Il participe aux réunions pédagogiques de son département et est soumis à une évaluation semestrielle sur plusieurs critères : maîtrise du contenu, qualité pédagogique, disponibilité pour les étudiants et taux de réussite.
+
+Q7 : Comment se déroule l'évaluation pédagogique ?
+R : Chaque semestre, le responsable pédagogique procède à une évaluation selon quatre critères : compétences disciplinaires (maîtrise du contenu enseigné), qualité pédagogique (clarté, méthodes, engagement étudiant), disponibilité (réactivité aux questions, respect des horaires) et taux de réussite des étudiants dans le module. Les résultats sont visibles directement dans votre tableau de bord, avec la moyenne globale de toutes vos évaluations. Ces évaluations servent de base pour accéder au statut Talent.
+
+
+SECTION 3 : PARCOURS TALENT
+-----------------------------
+
+Q8 : Qu'est-ce que le statut Talent ESPRIT ?
+R : Le statut Talent est une distinction accordée aux enseignants qui ont démontré un niveau d'excellence reconnu par l'institution. Il récompense l'engagement dans la montée en compétences, la qualité de l'enseignement et l'investissement dans la vie académique d'ESPRIT. Le badge Talent (étoile dorée) est affiché sur votre profil et visible par tous les responsables pédagogiques et la direction générale.
+
+Q9 : Comment accéder au statut Talent ?
+R : Pour accéder au statut Talent, vous devez : (1) avoir le statut Enseignant actif depuis au moins un semestre, (2) faire une demande depuis votre tableau de bord en cliquant sur "Demander le statut Talent", (3) suivre et valider avec succès au moins une formation du catalogue RDFF ou une formation personnalisée validée par le RDFF. Une fois la formation complétée et validée, le badge Talent est automatiquement attribué à votre profil.
+
+Q10 : Que se passe-t-il concrètement une fois que je deviens Talent ?
+R : Devenir Talent ouvre trois types d'avantages définis par la Direction Générale : des avantages financiers (bonus sur performance calculé sur vos évaluations et taux de réussite), des avantages de carrière (accès prioritaire aux postes de chargé de mission, coordinateur de module, participation aux comités pédagogiques) et des bénéfices d'opportunités (participation aux projets de recherche partenariaux, missions d'expertise externe, formations internationales sponsorisées). La liste complète et détaillée de ces avantages est consultable dans l'espace Valorisation de la plateforme.
+
+Q11 : L'agent IA ARIA peut-il m'aider dans mon parcours Talent ?
+R : Oui, ARIA est spécifiquement conçue pour vous accompagner. Elle peut analyser votre profil de compétences, identifier vos lacunes, vous recommander les formations les plus adaptées du catalogue RDFF, ou générer un plan de formation personnalisé sur mesure. Vous pouvez interagir avec ARIA directement depuis votre tableau de bord, à n'importe quel moment.
+
+
+SECTION 4 : FORMATIONS RDFF
+-----------------------------
+
+Q12 : Comment accéder aux formations du catalogue RDFF ?
+R : Une fois que vous avez demandé le statut Talent depuis votre tableau de bord, un nouvel onglet "Formations" apparaît, vous donnant accès au catalogue complet des formations proposées par le Responsable du Département de Formation des Formateurs. Vous pouvez voir le détail de chaque formation (objectifs, programme, durée, badge obtenu) et vous y inscrire directement.
+
+Q13 : Puis-je proposer ma propre formation personnalisée ?
+R : Oui. Depuis l'onglet Formations, vous pouvez utiliser le générateur de plan de formation IA en remplissant trois champs : votre objectif de formation, votre niveau actuel et la durée souhaitée. L'agent IA ARIA génère alors un plan de formation complet semaine par semaine. Ce plan est automatiquement soumis au RDFF qui peut l'ajuster et le valider. Une fois validé, il est ajouté au catalogue général et vous est proposé officiellement.
+
+Q14 : Le suivi des formations est-il obligatoire ?
+R : Oui, le suivi est obligatoire pour obtenir le badge Talent. Chaque formation est découpée en étapes qui servent de jalons de progression. Un minimum de présence et de participation active est requis à chaque étape. La validation finale se fait par le RDFF sur la base du projet ou livrable produit. Toute absence non justifiée peut entraîner la non-validation de l'étape concernée.
+
+
+SECTION 5 : COMMUNICATION ET SUPPORT
+--------------------------------------
+
+Q15 : Comment contacter un responsable pédagogique ou un membre de l'administration ?
+R : La plateforme dispose d'un module de chat intégré accessible depuis votre tableau de bord (onglet "Messages"). Vous pouvez rechercher n'importe quel membre de l'administration ou responsable pédagogique par son nom ou son adresse email institutionnelle et lui envoyer un message directement, sans besoin de demande d'amis. La messagerie est instantanée et sans restriction entre tous les membres de la communauté ESPRIT (hors candidats).
+
+Q16 : J'ai un problème technique sur la plateforme, que faire ?
+R : Pour tout problème technique (connexion, upload de CV, erreur d'affichage), contactez le support informatique via l'onglet "Aide" disponible en bas de chaque page. Précisez votre identifiant, le problème rencontré et joignez si possible une capture d'écran. Le délai de traitement est de 24 à 48 heures ouvrables.
+
+Q17 : Mes données personnelles sont-elles sécurisées sur la plateforme ?
+R : La plateforme de gestion des talents ESPRIT respecte les réglementations en vigueur en matière de protection des données personnelles. Vos CV, évaluations et informations de profil sont stockés localement sur les serveurs sécurisés d'ESPRIT et ne sont en aucun cas partagés avec des tiers ni traités par des services cloud externes. L'agent IA ARIA fonctionne entièrement en local, sans transmission de vos données vers des API externes. Vous disposez d'un droit d'accès, de rectification et d'effacement de vos données sur simple demande au service informatique.

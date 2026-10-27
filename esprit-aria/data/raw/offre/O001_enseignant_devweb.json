@@ -1,0 +1,41 @@
+{
+  "id": "O001",
+  "poste": "Enseignant Vacataire — Développement Web Full Stack",
+  "departement": "Informatique et Ingénierie Logicielle",
+  "responsable_pedagogique": "Chef Département Informatique",
+  "type_contrat": "Vacataire",
+  "volume_horaire": 60,
+  "unite_horaire": "heures/semestre",
+  "remuneration": "35 TND/heure",
+  "niveau_requis": "Ingénieur ou Master en Informatique (Bac+5 minimum)",
+  "experience_requise": "Minimum 2 ans d'expérience professionnelle ou académique en développement web",
+  "modules_a_enseigner": [
+    "Développement Frontend avec React.js (L3 Informatique)",
+    "Développement Backend avec Node.js et Express (L3 Informatique)",
+    "Architecture REST API et documentation Swagger (M1 Informatique)",
+    "Travaux Pratiques : projet web full-stack en équipe"
+  ],
+  "competences_requises": [
+    "React.js", "Node.js", "Express.js", "REST API",
+    "HTML5", "CSS3", "JavaScript ES6+", "TypeScript",
+    "Git/GitHub", "SQL", "MongoDB",
+    "Déploiement : Docker, Heroku ou Vercel"
+  ],
+  "competences_souhaitees": [
+    "Next.js", "GraphQL", "Redis", "CI/CD", "Tests unitaires (Jest, Mocha)"
+  ],
+  "profil_ideal": "Développeur full-stack avec expérience en entreprise souhaitant transmettre ses compétences. Appétence pour la pédagogie et la transmission du savoir. Capacité à rendre les concepts techniques accessibles à des étudiants de niveau L3/M1.",
+  "date_debut": "Septembre 2026",
+  "duree": "1 semestre renouvelable",
+  "lieu": "Campus ESPRIT — Ariana, Tunis",
+  "modalites_candidature": "Dépôt du CV et lettre de motivation via la plateforme ESPRIT",
+  "etat": "ouverte",
+  "date_cloture": "30 juin 2026",
+  "nb_candidats_max": 3,
+  "criteres_selection": [
+    "Correspondance des compétences CV avec le profil (score ML automatique)",
+    "Expérience pédagogique antérieure (cours, formation, tutorat)",
+    "Portfolio ou projets GitHub",
+    "Entretien avec le chef de département"
+  ]
+}

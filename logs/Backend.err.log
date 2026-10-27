@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\USER\\Desktop\\ESPRIT\\PFE\\Stage\\esprit-talents\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [23200] using WatchFiles
+INFO:     Started server process [15400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55054 - "WebSocket /chat/ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwicm9sZSI6ImNoZWZfYWRtaW4iLCJleHAiOjE3ODQ4MDM5MzJ9.gJrVWZbp_TY0ulweXMomVo4t9lTcyOApk4pIFITM-Io" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:63889 - "WebSocket /chat/ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwicm9sZSI6ImNoZWZfYWRtaW4iLCJleHAiOjE3ODQ4MDM5MzJ9.gJrVWZbp_TY0ulweXMomVo4t9lTcyOApk4pIFITM-Io" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:56781 - "WebSocket /chat/ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwicm9sZSI6ImNoZWZfYWRtaW4iLCJleHAiOjE3ODQ4MDM5MzJ9.gJrVWZbp_TY0ulweXMomVo4t9lTcyOApk4pIFITM-Io" [accepted]
+INFO:     connection open
+INFO:     connection closed

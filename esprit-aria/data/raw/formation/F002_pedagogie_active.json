@@ -1,0 +1,51 @@
+{
+  "id": "F002",
+  "titre": "Pédagogie Active et Méthodes d'Enseignement Innovantes",
+  "cible": "Tous les enseignants ESPRIT (tous départements)",
+  "duree_semaines": 4,
+  "niveau": "débutant",
+  "type": "formation_generique",
+  "createur": "RDFF",
+  "objectif": "Acquérir et maîtriser les méthodes pédagogiques actives pour améliorer l'engagement étudiant, les taux de réussite et la qualité de l'enseignement à ESPRIT.",
+  "prerequis": ["Expérience d'enseignement minimum 1 semestre", "Aucun prérequis technique"],
+  "competences_visees": ["Pédagogie active", "Conception pédagogique", "Évaluation formative", "Gestion de classe", "E-learning", "Moodle"],
+  "programme": [
+    {
+      "semaine": 1,
+      "theme": "Fondements de la pédagogie active — du cours magistral au cours participatif",
+      "objectifs": ["Comprendre les limites du cours magistral traditionnel", "Découvrir les méthodes actives : classe inversée, apprentissage par problèmes (APP), apprentissage par projets", "Analyser des exemples concrets appliqués en école d'ingénieurs"],
+      "ressources": ["Livre : L'art d'enseigner (Philippe Perrenoud)", "Vidéos TED Education"],
+      "exercice": "Reconcevoir un cours magistral existant en format classe inversée"
+    },
+    {
+      "semaine": 2,
+      "theme": "Conception d'activités pédagogiques engageantes",
+      "objectifs": ["Rédiger des objectifs pédagogiques selon la taxonomie de Bloom", "Concevoir des évaluations formatives (quiz, cas pratiques, peer review)", "Utiliser des outils numériques : Kahoot, Mentimeter, Wooclap"],
+      "ressources": ["Taxonomie de Bloom révisée", "Guide Wooclap pour l'enseignement"],
+      "exercice": "Concevoir une séquence pédagogique complète de 3 heures avec 3 activités actives"
+    },
+    {
+      "semaine": 3,
+      "theme": "Plateforme e-learning Moodle — usage pédagogique",
+      "objectifs": ["Créer et organiser un cours Moodle", "Intégrer des quiz, devoirs et forums", "Suivre la progression des étudiants via les rapports Moodle"],
+      "ressources": ["Documentation Moodle ESPRIT", "Formation Moodle en ligne"],
+      "exercice": "Migrer un module de cours existant sur Moodle avec quiz intégré et suivi automatique"
+    },
+    {
+      "semaine": 4,
+      "theme": "Évaluation des apprentissages et feedback constructif",
+      "objectifs": ["Distinguer évaluation formative et sommative", "Rédiger des grilles de correction claires et équitables", "Donner un feedback constructif aux étudiants"],
+      "ressources": ["Guide de l'évaluation ESPRIT", "Rubrics design guide"],
+      "exercice": "Créer une grille d'évaluation complète pour un projet de fin de module"
+    }
+  ],
+  "evaluation": {
+    "criteres": ["Refonte d'un cours existant", "Présentation devant pairs", "Évaluation par les collègues (peer review)"],
+    "note_minimale": 12,
+    "sur": 20
+  },
+  "badge": "Enseignant Innovant ESPRIT",
+  "acces_talent": true,
+  "nb_places": 20,
+  "etat": "disponible"
+}

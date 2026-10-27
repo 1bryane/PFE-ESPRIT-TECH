@@ -1,0 +1,79 @@
+{
+  "id": "F005",
+  "titre": "Recherche Scientifique et Publication Internationale",
+  "cible": "Enseignants souhaitant développer leur activité de recherche et publier dans des revues indexées",
+  "duree_semaines": 8,
+  "niveau": "avancé",
+  "type": "formation_generique",
+  "createur": "RDFF",
+  "objectif": "Acquérir les méthodes et outils nécessaires pour mener des travaux de recherche rigoureux, rédiger des articles scientifiques de qualité et les soumettre à des conférences et revues internationales indexées (Scopus, IEEE Xplore, Web of Science).",
+  "prerequis": ["Diplôme Master ou Doctorat", "Anglais niveau B2 minimum", "Avoir encadré au moins un projet de fin d'études"],
+  "competences_visees": ["Méthodologie de recherche", "Rédaction scientifique", "LaTeX", "Revue de littérature", "Analyse statistique", "Publication IEEE/ACM", "Gestion bibliographique"],
+  "programme": [
+    {
+      "semaine": 1,
+      "theme": "Méthodologie de la recherche scientifique",
+      "objectifs": ["Définir une problématique de recherche", "Formulation d'hypothèses vérifiables", "Choisir la méthode de recherche adaptée (quantitative, qualitative, mixte)"],
+      "ressources": ["Research Design (Creswell)", "IEEE How to write a research paper"],
+      "exercice": "Formuler une problématique de recherche sur un sujet de son domaine d'enseignement"
+    },
+    {
+      "semaine": 2,
+      "theme": "Revue de littérature systématique",
+      "objectifs": ["Utiliser Google Scholar, IEEE Xplore, Scopus", "Gérer les références avec Zotero et Mendeley", "Rédiger un état de l'art structuré"],
+      "ressources": ["Zotero tutorial", "PRISMA methodology for systematic reviews"],
+      "exercice": "État de l'art de 15 articles sur un sujet défini semaine 1"
+    },
+    {
+      "semaine": 3,
+      "theme": "Rédaction scientifique en anglais",
+      "objectifs": ["Structurer un article IMRaD (Introduction, Methods, Results, Discussion)", "Rédiger un abstract percutant en 250 mots", "Éviter le plagiat avec des outils de paraphrase"],
+      "ressources": ["Academic Writing for Graduate Students (Swales & Feak)", "Grammarly Academic"],
+      "exercice": "Rédiger l'introduction et l'abstract d'un article fictif"
+    },
+    {
+      "semaine": 4,
+      "theme": "LaTeX pour la rédaction scientifique",
+      "objectifs": ["Maîtriser LaTeX pour la mise en forme d'articles IEEE/ACM", "Créer des tableaux, figures et équations en LaTeX", "Utiliser Overleaf en mode collaboratif"],
+      "ressources": ["Overleaf tutorials", "IEEE LaTeX templates"],
+      "exercice": "Mettre en forme l'article fictif avec le template IEEE en LaTeX"
+    },
+    {
+      "semaine": 5,
+      "theme": "Design expérimental et validation",
+      "objectifs": ["Concevoir un protocole expérimental reproductible", "Analyser les résultats avec tests statistiques", "Visualiser les résultats : courbes ROC, box plots, confusion matrix"],
+      "ressources": ["Statistics for Machine Learning (Jason Brownlee)", "SciPy stats module"],
+      "exercice": "Design expérimental complet pour valider un algorithme proposé"
+    },
+    {
+      "semaine": 6,
+      "theme": "Soumission et processus de peer review",
+      "objectifs": ["Identifier les bonnes conférences et revues (classement CORE, Scimago)", "Préparer une soumission : cover letter, formatting guidelines", "Comprendre le processus de review et répondre aux reviewers"],
+      "ressources": ["CORE Rankings 2024", "How to respond to reviewers — Nature guide"],
+      "exercice": "Rédiger une réponse simulée aux commentaires de 3 reviewers fictifs"
+    },
+    {
+      "semaine": 7,
+      "theme": "Gestion de projets de recherche et encadrement doctoral",
+      "objectifs": ["Encadrer des étudiants en master recherche", "Gérer un projet de recherche collaboratif international", "Monter un dossier de financement de recherche (ANR, EU Horizon)"],
+      "ressources": ["EU Horizon Europe guide", "Encadrement doctoral ESPRIT"],
+      "exercice": "Rédiger un synopsis de projet de recherche de 2 pages"
+    },
+    {
+      "semaine": 8,
+      "theme": "Présentation orale de recherche (conférence simulée)",
+      "objectifs": ["Préparer une présentation de 15 minutes + 5 questions", "Maîtriser les outils de présentation : Beamer, PowerPoint scientifique", "Gérer le stress de la présentation devant experts"],
+      "ressources": ["TED Talks — scientifiques", "Présentation Zen (Garr Reynolds)"],
+      "exercice": "Présentation complète devant le groupe + jury externe ESPRIT"
+    }
+  ],
+  "evaluation": {
+    "criteres": ["Qualité de l'article rédigé (40%)", "Présentation conférence simulée (35%)", "Revue de littérature (25%)"],
+    "note_minimale": 15,
+    "sur": 20
+  },
+  "badge": "Chercheur Certifié ESPRIT — Publication Internationale",
+  "acces_talent": true,
+  "nb_places": 10,
+  "etat": "disponible"
+}
