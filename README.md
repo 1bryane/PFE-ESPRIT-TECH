@@ -82,8 +82,8 @@ Agent conversationnel fonctionnant **en local** (aucune donnée envoyée à un s
 
 ### Prérequis
 
-- Python `<version>` et pip
-- Node.js `<version>` et npm
+- Python `3.11` et pip
+- Node.js `v22.15.1` et npm
 - [Ollama](https://ollama.com) installé, avec le modèle téléchargé :
 
 ```bash
@@ -93,55 +93,80 @@ ollama pull llama3.1:8b
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/1bryane/<nom_du_depot>.git
-cd <nom_du_depot>
+git clone https://github.com/1bryane/PFE-ESPRIT-TECH.git
+cd PFE-ESPRIT-TECH
 ```
 
 ### 2. Lancer les services
 
-Chaque service tourne dans son propre terminal.
+#### Lancement automatique (Windows)
+
+Après la première installation (voir plus bas), double-cliquer sur `start_all.bat` à la racine du dépôt. Le script démarre dans l'ordre Ollama, moteur ML, ARIA, backend et frontend, surveille chaque service (`/health`), le relance s'il s'arrête et ouvre http://localhost:5173 quand tout est prêt. `Ctrl+C` arrête tout ; `stop_all.bat` coupe les services restés actifs.
+
+#### Première installation (une seule fois)
+
+Les environnements virtuels doivent porter les noms ci-dessous : `start_all.ps1` les utilise.
 
 **Moteur ML (port 8000)**
 
-```bash
-cd <dossier_moteur_ml>
-python -m venv .venv
-source .venv/bin/activate        # Windows : .venv\Scripts\activate
+```powershell
+cd SCRIPT_PYTHON_ML
+python -m venv env
+.\env\Scripts\activate
 pip install -r requirements.txt
-python -m spacy download <modele_spacy>
-uvicorn <module>:app --port 8000
+python -m spacy download fr_core_news_md
+python -m spacy download en_core_web_md
 ```
 
 **Agent ARIA (port 8001)**
 
-```bash
-cd <dossier_aria>
-python -m venv .venv
-source .venv/bin/activate
+```powershell
+cd esprit-aria
+python -m venv env
+.\env\Scripts\activate
 pip install -r requirements.txt
-uvicorn <module>:app --port 8001
 ```
 
 **Backend (port 8002)**
 
-```bash
-cd <dossier_backend>
-python -m venv .venv
-source .venv/bin/activate
+```powershell
+cd esprit-talents\backend
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env             # puis renseigner les valeurs
-uvicorn <module>:app --port 8002
 ```
 
 **Frontend (port 5173)**
 
-```bash
-cd <dossier_frontend>
+```powershell
+cd esprit-talents\frontend
 npm install
-npm run dev
 ```
 
-L'application est ensuite accessible sur http://localhost:5173.
+#### Lancement manuel (un terminal par service)
+
+Ordre de démarrage : Ollama, moteur ML, ARIA, backend, frontend.
+
+```powershell
+ollama serve                                              # si Ollama n'est pas déjà actif
+cd SCRIPT_PYTHON_ML;          .\env\Scripts\activate; uvicorn skills_engine:app --port 8000
+cd esprit-aria;               .\env\Scripts\activate; uvicorn agent_ia:app --port 8001
+cd esprit-talents\backend;    .\venv\Scripts\activate; python bootstrap_db.py; uvicorn main:app --port 8002
+cd esprit-talents\frontend;   npm run dev
+```
+
+Chaque service Python expose `/health` (par exemple http://localhost:8002/health). `bootstrap_db.py` initialise la base de données au démarrage du backend.
+
+### Structure du dépôt
+
+| Dossier ou fichier | Rôle |
+|---|---|
+| `SCRIPT_PYTHON_ML/` | Moteur ML (port 8000) |
+| `esprit-aria/` | Agent conversationnel ARIA (port 8001) |
+| `esprit-talents/backend/` | API FastAPI (port 8002) |
+| `esprit-talents/frontend/` | Interface React + Vite (port 5173) |
+| `start_all.bat`, `start_all.ps1`, `stop_all.bat` | Lancement et arrêt unifiés (Windows) |
+| `USE_CASES.md`, `RESTITUTION_TECHNIQUE.md` | Cas d'usage et documentation technique |
 
 ### Comptes de test
 

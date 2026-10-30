@@ -1,6 +1,6 @@
 param()
 
-$Base   = "C:\Users\USER\Desktop\ESPRIT\PFE\Stage"
+$Base = $PSScriptRoot
 $LogDir = Join-Path $Base "logs"
 New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
 
